@@ -22,9 +22,15 @@ header {
 #header-register {
     margin-top: 48px;
     margin-bottom: 35px;
+    background: #2269BC;
+    border-radius: 6px;
 }
 #header-signin {
     margin: 48px 179px 35px 17px;
+    border: 1px solid #2269BC;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background: #FFFFFF;
 }
 #header-end {
     width: 100%;
@@ -59,7 +65,6 @@ h3 {
     margin: auto 40px auto 100px;
 }
 
-
 .block-3 {
     border: 1px solid #2269BC;
     box-sizing: border-box;
@@ -71,4 +76,19 @@ h3 {
     width: 485px;
     height: 278px;
     margin: auto 100px auto 40px;
+}
+
+footer {
+    margin-top: 130px;
+    background: #2269BC;
+    height: 172px;
+    display: flex;
+}
+
+#footer-logo {
+    margin: 33px 17px 46px 63px;
+}
+.footer-part {
+    display: flex;
+    width: 50%;
 }
